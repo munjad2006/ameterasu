@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 27 Jun 2023 17:11:09 at https://endreox-html.vercel.app/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://endreox-html.vercel.app/ -O1 "C:\My Web Sites\ameterasu" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:12:20	Error: 	"Not Found" (404) at link https://endreox-html.vercel.app/assets/vendors/owl-carousel/owl.video.play.png (from https://endreox-html.vercel.app/assets/vendors/owl-carousel/owl.carousel.min.css)
+17:12:20	Error: 	"Not Found" (404) at link https://endreox-html.vercel.app/assets/vendors/images/icon/bx_loader.gif (from https://endreox-html.vercel.app/assets/vendors/bxslider/jquery.bxslider.css)
+17:12:20	Error: 	"Not Found" (404) at link https://endreox-html.vercel.app/assets/vendors/img/bx-slider/controls.png (from https://endreox-html.vercel.app/assets/vendors/bxslider/jquery.bxslider.css)
+17:12:20	Error: 	"Not Found" (404) at link https://endreox-html.vercel.app/assets/vendors/vegas/overlays/02.png (from https://endreox-html.vercel.app/assets/vendors/vegas/vegas.min.css)
+17:12:20	Error: 	"Not Found" (404) at link https://endreox-html.vercel.app/assets/vendors/timepicker/images/ui-icons_444444_256x240.png (from https://endreox-html.vercel.app/assets/vendors/timepicker/timePicker.css)
+17:12:20	Error: 	"Not Found" (404) at link https://endreox-html.vercel.app/assets/images/icon/cross-out.png (from https://endreox-html.vercel.app/assets/css/endreox.css)
+17:12:20	Error: 	"Not Found" (404) at link https://endreox-html.vercel.app/services-2.html (from https://endreox-html.vercel.app/single-service.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 11 seconds : 278 links scanned, 270 files written (20807647 bytes overall) [16122491 bytes received at 227077 bytes/sec], 6999937 bytes transferred using HTTP compression in 105 files, ratio 29%, 69.5 requests per connection
+(7 errors, 0 warnings, 0 messages)

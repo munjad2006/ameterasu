@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Transparent Login Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #2980b9, #6dd5fa);
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+			margin-right: 2%;
+			margin-left: 2%;
+        }
+
+        .login-card:hover {
+            transform: scale(1.05);
+        }
+
+        .login-card h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .llogin-card {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-card button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .login-card button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-card" >
+    <h2>If you Open this website first time.</h2>
+	<h4>Click on create Cookies button</h4>
+	<button id="btn1" value="1" onclick="openPhp()" >Create Cookies</button>
+</div>
+<div class="login-card" >
+    <h2>If you Open this website more than first time.</h2>
+	<h4>Click on open website button</h4>
+	<button id="btn2" value="2" onclick="openWebsite()">open website</button>
+</div>
+<script>
+	
+		function openPhp(){
+		window.open( href='ameterasuhtmlfiles/createdb.php',target="_self");
+		}
+
+		function openWebsite()
+		{
+		window.open('ameterasuhtmlfiles/index.html',target="_self");
+		
+		}
+
+	
+</script>
+</body>
+</html>
